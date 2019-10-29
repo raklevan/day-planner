@@ -1,3 +1,14 @@
+
+
+
+var now = $("#time");
+
+setInterval(function () {
+    now.text(moment().format("MMM Do YYYY - hh:mm:ss"));
+}, 1000);
+
+
+
 $("#9-btn").click(function(event){
     event.preventDefault();
     var input9 = $("#9").val()

@@ -15,6 +15,12 @@ body{
 
 }
 
+#time{
+    font-size:40px;
+
+    color: rgb(250, 249, 247);
+}
+
 .column{
 
     padding: 20px;
@@ -24,7 +30,7 @@ body{
 
     opacity:0.9;
     border-radius: 50px;
-    font-family: 'Monoton', cursive;
+    /* font-family: 'Monoton', cursive; */
 
 
 
@@ -47,7 +53,7 @@ body{
 }
 
 .title{
-    
+    font-family: 'Monoton', cursive;
     font-size: 70px;
     /* color: black; */
     color: rgb(233, 229, 220);
