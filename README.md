@@ -16,7 +16,7 @@ a simple calendar application that allows the user to save events for each hour 
 - [JQuery](https://jquery.com/)
 ​
 ### Screenshots
-​![Image](screenshot.jpg)
+​![Image](screenshot.jpeg)
 
 
 ​
