@@ -6,7 +6,7 @@ $("#9-btn").click(function(event){
 
     console.log(localStorage.getItem("@9:00"))
 
-   document.querySelector(".text9").textContent=localStorage.getItem("@9:00");
+//    document.querySelector(".text9").textContent=localStorage.getItem("@9:00");
 
 
 })
@@ -28,6 +28,11 @@ $("#10-btn").click(function(event){
     console.log(input10);
 
 })
+function save10(){
+    if(localStorage.getItem("@10:00")){
+        $("#10").val(localStorage.getItem("@10:00"))}}
+    
+    save10()
 
 
 
@@ -39,6 +44,12 @@ $("#11-btn").click(function(event){
 
 })
 
+function save11(){
+    if(localStorage.getItem("@11:00")){
+        $("#11").val(localStorage.getItem("@11:00"))}}
+    
+    save11()
+
 
 
 $("#12-btn").click(function(event){
@@ -48,6 +59,12 @@ $("#12-btn").click(function(event){
     console.log(input12);
 
 })
+
+function save12(){
+    if(localStorage.getItem("@12:00")){
+        $("#12").val(localStorage.getItem("@12:00"))}}
+    
+    save12()
 
 
 
@@ -59,6 +76,12 @@ $("#1-btn").click(function(event){
 
 })
 
+function save1(){
+    if(localStorage.getItem("@1:00")){
+        $("#1").val(localStorage.getItem("@1:00"))}}
+    
+    save1()
+
 
 
 $("#2-btn").click(function(event){
@@ -69,6 +92,12 @@ $("#2-btn").click(function(event){
 
 })
 
+function save2(){
+    if(localStorage.getItem("@2:00")){
+        $("#2").val(localStorage.getItem("@2:00"))}}
+    
+    save2()
+
 
 
 $("#3-btn").click(function(event){
@@ -78,6 +107,11 @@ $("#3-btn").click(function(event){
     console.log(input3);
 
 })
+function save3(){
+    if(localStorage.getItem("@3:00")){
+        $("#3").val(localStorage.getItem("@3:00"))}}
+    
+    save3()
 
 
 
@@ -89,6 +123,12 @@ $("#4-btn").click(function(event){
 
 })
 
+function save4(){
+    if(localStorage.getItem("@4:00")){
+        $("#4").val(localStorage.getItem("@4:00"))}}
+    
+    save4()
+
 $("#5-btn").click(function(event){
     event.preventDefault();
     var input5 = $("#5").val()
@@ -96,6 +136,12 @@ $("#5-btn").click(function(event){
     console.log(input5);
 
 })
+
+function save5(){
+    if(localStorage.getItem("@5:00")){
+        $("#5").val(localStorage.getItem("@5:00"))}}
+    
+    save5()
 
 
 
